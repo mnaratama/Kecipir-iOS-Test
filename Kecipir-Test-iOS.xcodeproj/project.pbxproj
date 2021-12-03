@@ -13,6 +13,29 @@
 		238DC1A02758775600F209A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DC19E2758775600F209A4 /* Main.storyboard */; };
 		238DC1A22758775600F209A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238DC1A12758775600F209A4 /* Assets.xcassets */; };
 		238DC1A52758775600F209A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DC1A32758775600F209A4 /* LaunchScreen.storyboard */; };
+		238DC1AF275882DE00F209A4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DC1AE275882DE00F209A4 /* UIViewExtension.swift */; };
+		238DC1B527589C2300F209A4 /* HeaderWarningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238DC1B427589C2300F209A4 /* HeaderWarningCell.xib */; };
+		238DC1B827589C3100F209A4 /* HeaderWarningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DC1B727589C3100F209A4 /* HeaderWarningCell.swift */; };
+		23CA14502759E474002099C5 /* DataKecipir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA144F2759E474002099C5 /* DataKecipir.swift */; };
+		23CA1469275A491E002099C5 /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA1468275A491E002099C5 /* PaymentMethodViewController.swift */; };
+		23EF989B2758A3350061C52A /* CouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF989A2758A3350061C52A /* CouponCell.xib */; };
+		23EF989E2758A3590061C52A /* CouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF989D2758A3590061C52A /* CouponCell.swift */; };
+		23EF98A12758B4B40061C52A /* ShippingAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98A02758B4B40061C52A /* ShippingAddressCell.xib */; };
+		23EF98A42758B4BD0061C52A /* ShippingAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98A32758B4BD0061C52A /* ShippingAddressCell.swift */; };
+		23EF98A72758BB1D0061C52A /* HeaderNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98A62758BB1D0061C52A /* HeaderNameCell.xib */; };
+		23EF98AA2758BB310061C52A /* HeaderNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98A92758BB310061C52A /* HeaderNameCell.swift */; };
+		23EF98AD2758BB700061C52A /* AddShoppingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98AC2758BB700061C52A /* AddShoppingItemCell.xib */; };
+		23EF98B02758BB900061C52A /* AddShoppingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98AF2758BB900061C52A /* AddShoppingItemCell.swift */; };
+		23EF98B52758C62E0061C52A /* ShoppingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98B42758C62E0061C52A /* ShoppingItemCell.xib */; };
+		23EF98B82758C63A0061C52A /* ShoppingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98B72758C63A0061C52A /* ShoppingItemCell.swift */; };
+		23EF98BC2758C7510061C52A /* PackagingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98BB2758C7510061C52A /* PackagingCell.xib */; };
+		23EF98BF2758C7630061C52A /* NotesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98BE2758C7630061C52A /* NotesCell.xib */; };
+		23EF98C22758C7910061C52A /* PaymentMethodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98C12758C7910061C52A /* PaymentMethodCell.xib */; };
+		23EF98C52758C7CB0061C52A /* BillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23EF98C42758C7CB0061C52A /* BillCell.xib */; };
+		23EF98C82758C7D80061C52A /* PackagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98C72758C7D80061C52A /* PackagingCell.swift */; };
+		23EF98CB2758C7E10061C52A /* NotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98CA2758C7E10061C52A /* NotesCell.swift */; };
+		23EF98CE2758C8130061C52A /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98CD2758C8130061C52A /* PaymentMethodCell.swift */; };
+		23EF98D12758C81C0061C52A /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF98D02758C81C0061C52A /* BillCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +47,29 @@
 		238DC1A12758775600F209A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238DC1A42758775600F209A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238DC1A62758775600F209A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238DC1AE275882DE00F209A4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		238DC1B427589C2300F209A4 /* HeaderWarningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderWarningCell.xib; sourceTree = "<group>"; };
+		238DC1B727589C3100F209A4 /* HeaderWarningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderWarningCell.swift; sourceTree = "<group>"; };
+		23CA144F2759E474002099C5 /* DataKecipir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKecipir.swift; sourceTree = "<group>"; };
+		23CA1468275A491E002099C5 /* PaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewController.swift; sourceTree = "<group>"; };
+		23EF989A2758A3350061C52A /* CouponCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponCell.xib; sourceTree = "<group>"; };
+		23EF989D2758A3590061C52A /* CouponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCell.swift; sourceTree = "<group>"; };
+		23EF98A02758B4B40061C52A /* ShippingAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShippingAddressCell.xib; sourceTree = "<group>"; };
+		23EF98A32758B4BD0061C52A /* ShippingAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingAddressCell.swift; sourceTree = "<group>"; };
+		23EF98A62758BB1D0061C52A /* HeaderNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderNameCell.xib; sourceTree = "<group>"; };
+		23EF98A92758BB310061C52A /* HeaderNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderNameCell.swift; sourceTree = "<group>"; };
+		23EF98AC2758BB700061C52A /* AddShoppingItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddShoppingItemCell.xib; sourceTree = "<group>"; };
+		23EF98AF2758BB900061C52A /* AddShoppingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShoppingItemCell.swift; sourceTree = "<group>"; };
+		23EF98B42758C62E0061C52A /* ShoppingItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingItemCell.xib; sourceTree = "<group>"; };
+		23EF98B72758C63A0061C52A /* ShoppingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemCell.swift; sourceTree = "<group>"; };
+		23EF98BB2758C7510061C52A /* PackagingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackagingCell.xib; sourceTree = "<group>"; };
+		23EF98BE2758C7630061C52A /* NotesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesCell.xib; sourceTree = "<group>"; };
+		23EF98C12758C7910061C52A /* PaymentMethodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodCell.xib; sourceTree = "<group>"; };
+		23EF98C42758C7CB0061C52A /* BillCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillCell.xib; sourceTree = "<group>"; };
+		23EF98C72758C7D80061C52A /* PackagingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagingCell.swift; sourceTree = "<group>"; };
+		23EF98CA2758C7E10061C52A /* NotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCell.swift; sourceTree = "<group>"; };
+		23EF98CD2758C8130061C52A /* PaymentMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
+		23EF98D02758C81C0061C52A /* BillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,62 @@
 		238DC1972758775600F209A4 /* Kecipir-Test-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				23CA144F2759E474002099C5 /* DataKecipir.swift */,
+				238DC1B127589AD300F209A4 /* Cell */,
 				238DC1982758775600F209A4 /* AppDelegate.swift */,
 				238DC19A2758775600F209A4 /* SceneDelegate.swift */,
 				238DC19C2758775600F209A4 /* ViewController.swift */,
+				23CA1468275A491E002099C5 /* PaymentMethodViewController.swift */,
 				238DC19E2758775600F209A4 /* Main.storyboard */,
 				238DC1A12758775600F209A4 /* Assets.xcassets */,
 				238DC1A32758775600F209A4 /* LaunchScreen.storyboard */,
 				238DC1A62758775600F209A4 /* Info.plist */,
+				238DC1AE275882DE00F209A4 /* UIViewExtension.swift */,
 			);
 			path = "Kecipir-Test-iOS";
+			sourceTree = "<group>";
+		};
+		238DC1B127589AD300F209A4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				238DC1B227589ADF00F209A4 /* IBFile */,
+				238DC1B327589AEE00F209A4 /* SwiftFile */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		238DC1B227589ADF00F209A4 /* IBFile */ = {
+			isa = PBXGroup;
+			children = (
+				238DC1B427589C2300F209A4 /* HeaderWarningCell.xib */,
+				23EF98B42758C62E0061C52A /* ShoppingItemCell.xib */,
+				23EF98AC2758BB700061C52A /* AddShoppingItemCell.xib */,
+				23EF98A62758BB1D0061C52A /* HeaderNameCell.xib */,
+				23EF989A2758A3350061C52A /* CouponCell.xib */,
+				23EF98A02758B4B40061C52A /* ShippingAddressCell.xib */,
+				23EF98BB2758C7510061C52A /* PackagingCell.xib */,
+				23EF98BE2758C7630061C52A /* NotesCell.xib */,
+				23EF98C12758C7910061C52A /* PaymentMethodCell.xib */,
+				23EF98C42758C7CB0061C52A /* BillCell.xib */,
+			);
+			path = IBFile;
+			sourceTree = "<group>";
+		};
+		238DC1B327589AEE00F209A4 /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				238DC1B727589C3100F209A4 /* HeaderWarningCell.swift */,
+				23EF98B72758C63A0061C52A /* ShoppingItemCell.swift */,
+				23EF98AF2758BB900061C52A /* AddShoppingItemCell.swift */,
+				23EF98A92758BB310061C52A /* HeaderNameCell.swift */,
+				23EF989D2758A3590061C52A /* CouponCell.swift */,
+				23EF98A32758B4BD0061C52A /* ShippingAddressCell.swift */,
+				23EF98C72758C7D80061C52A /* PackagingCell.swift */,
+				23EF98CA2758C7E10061C52A /* NotesCell.swift */,
+				23EF98CD2758C8130061C52A /* PaymentMethodCell.swift */,
+				23EF98D02758C81C0061C52A /* BillCell.swift */,
+			);
+			path = SwiftFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +217,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EF98AD2758BB700061C52A /* AddShoppingItemCell.xib in Resources */,
+				23EF989B2758A3350061C52A /* CouponCell.xib in Resources */,
 				238DC1A52758775600F209A4 /* LaunchScreen.storyboard in Resources */,
+				23EF98BF2758C7630061C52A /* NotesCell.xib in Resources */,
+				23EF98BC2758C7510061C52A /* PackagingCell.xib in Resources */,
+				23EF98C22758C7910061C52A /* PaymentMethodCell.xib in Resources */,
+				23EF98A72758BB1D0061C52A /* HeaderNameCell.xib in Resources */,
+				23EF98B52758C62E0061C52A /* ShoppingItemCell.xib in Resources */,
+				23EF98C52758C7CB0061C52A /* BillCell.xib in Resources */,
+				23EF98A12758B4B40061C52A /* ShippingAddressCell.xib in Resources */,
+				238DC1B527589C2300F209A4 /* HeaderWarningCell.xib in Resources */,
 				238DC1A22758775600F209A4 /* Assets.xcassets in Resources */,
 				238DC1A02758775600F209A4 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EF98B82758C63A0061C52A /* ShoppingItemCell.swift in Sources */,
 				238DC19D2758775600F209A4 /* ViewController.swift in Sources */,
+				23EF98AA2758BB310061C52A /* HeaderNameCell.swift in Sources */,
+				23EF98CB2758C7E10061C52A /* NotesCell.swift in Sources */,
+				23EF98A42758B4BD0061C52A /* ShippingAddressCell.swift in Sources */,
 				238DC1992758775600F209A4 /* AppDelegate.swift in Sources */,
+				23EF98B02758BB900061C52A /* AddShoppingItemCell.swift in Sources */,
+				23EF98C82758C7D80061C52A /* PackagingCell.swift in Sources */,
+				238DC1AF275882DE00F209A4 /* UIViewExtension.swift in Sources */,
+				23EF989E2758A3590061C52A /* CouponCell.swift in Sources */,
+				238DC1B827589C3100F209A4 /* HeaderWarningCell.swift in Sources */,
 				238DC19B2758775600F209A4 /* SceneDelegate.swift in Sources */,
+				23CA14502759E474002099C5 /* DataKecipir.swift in Sources */,
+				23EF98D12758C81C0061C52A /* BillCell.swift in Sources */,
+				23CA1469275A491E002099C5 /* PaymentMethodViewController.swift in Sources */,
+				23EF98CE2758C8130061C52A /* PaymentMethodCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

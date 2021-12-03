@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderWarningCell" id="MzK-iy-Zbf" customClass="HeaderWarningCell" customModule="Kecipir_Test_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MzK-iy-Zbf" id="H9D-zy-ffd">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="LZk-9x-ce6">
+                        <rect key="frame" x="16" y="0.0" width="382" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-DN-jGA">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TUTUP" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiA-2V-dTe">
+                                <rect key="frame" x="193" y="0.0" width="189" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="LZk-9x-ce6" secondAttribute="bottom" id="IWZ-Hn-sZK"/>
+                    <constraint firstItem="LZk-9x-ce6" firstAttribute="leading" secondItem="H9D-zy-ffd" secondAttribute="leading" constant="16" id="Nd7-Jc-2Qz"/>
+                    <constraint firstAttribute="trailing" secondItem="LZk-9x-ce6" secondAttribute="trailing" constant="16" id="OA6-99-czt"/>
+                    <constraint firstItem="LZk-9x-ce6" firstAttribute="top" secondItem="H9D-zy-ffd" secondAttribute="top" id="fWe-4n-SbL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftLbl" destination="4cL-DN-jGA" id="3Rj-QF-SWX"/>
+                <outlet property="rightLbl" destination="WiA-2V-dTe" id="kXh-FD-6if"/>
+            </connections>
+            <point key="canvasLocation" x="111" y="54"/>
+        </tableViewCell>
+    </objects>
+</document>

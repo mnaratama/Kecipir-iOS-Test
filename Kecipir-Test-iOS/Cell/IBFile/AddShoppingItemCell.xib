@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddShoppingItemCell" rowHeight="57" id="0fL-AP-d9S" customClass="AddShoppingItemCell" customModule="Kecipir_Test_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="57"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0fL-AP-d9S" id="IAJ-lI-aXU">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4d-lA-QE0">
+                        <rect key="frame" x="16" y="0.0" width="328" height="57"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh5-d3-mgh" userLabel="Belanja Lagi">
+                                <rect key="frame" x="105.5" y="18.5" width="117" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="tintColor" red="0.29803921570000003" green="0.69803921570000005" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="  Belanja Lagi" image="plus" catalog="system">
+                                    <color key="titleColor" red="0.29803921570000003" green="0.69803921570000005" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLw-au-0ww">
+                                <rect key="frame" x="0.0" y="56" width="328" height="1"/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="oXf-sS-G2n"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hLw-au-0ww" secondAttribute="trailing" id="Czu-ki-ccP"/>
+                            <constraint firstItem="Rh5-d3-mgh" firstAttribute="centerY" secondItem="C4d-lA-QE0" secondAttribute="centerY" id="PEd-LV-Gzv"/>
+                            <constraint firstItem="hLw-au-0ww" firstAttribute="leading" secondItem="C4d-lA-QE0" secondAttribute="leading" id="g3P-Wo-1qq"/>
+                            <constraint firstItem="Rh5-d3-mgh" firstAttribute="centerX" secondItem="C4d-lA-QE0" secondAttribute="centerX" id="k0t-6f-CDK"/>
+                            <constraint firstAttribute="bottom" secondItem="hLw-au-0ww" secondAttribute="bottom" id="psR-f1-Lnn"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="C4d-lA-QE0" firstAttribute="top" secondItem="IAJ-lI-aXU" secondAttribute="top" id="Lcy-SA-iQ9"/>
+                    <constraint firstAttribute="trailing" secondItem="C4d-lA-QE0" secondAttribute="trailing" constant="16" id="awU-pC-Hy1"/>
+                    <constraint firstAttribute="bottom" secondItem="C4d-lA-QE0" secondAttribute="bottom" id="dGI-DW-P4Q"/>
+                    <constraint firstItem="C4d-lA-QE0" firstAttribute="leading" secondItem="IAJ-lI-aXU" secondAttribute="leading" constant="16" id="lpI-jB-DLZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btmConstraint" destination="dGI-DW-P4Q" id="wG3-ZP-S9l"/>
+                <outlet property="leadingConstraint" destination="lpI-jB-DLZ" id="B7B-ea-V9p"/>
+                <outlet property="topConstraint" destination="Lcy-SA-iQ9" id="8jF-w3-SLU"/>
+                <outlet property="trailingConstraint" destination="awU-pC-Hy1" id="3D4-2g-I7Q"/>
+                <outlet property="viewMain" destination="C4d-lA-QE0" id="mDh-ny-9Y3"/>
+            </connections>
+            <point key="canvasLocation" x="96" y="-56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

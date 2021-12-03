@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotesCell" id="fRm-W1-cYh" customClass="NotesCell" customModule="Kecipir_Test_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fRm-W1-cYh" id="6Ko-Qb-7zX">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ewb-Do-NZe">
+                        <rect key="frame" x="16" y="0.0" width="328" height="144"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeZ-L7-WLL">
+                                <rect key="frame" x="0.0" y="143" width="328" height="1"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="7cG-yV-4lf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-KI-aZk">
+                                <rect key="frame" x="8" y="8" width="312" height="128"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BXf-rO-D0r">
+                                        <rect key="frame" x="0.0" y="0.0" width="312" height="128"/>
+                                        <color key="backgroundColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="BXf-rO-D0r" firstAttribute="leading" secondItem="7Ew-KI-aZk" secondAttribute="leading" id="UZl-La-d9L"/>
+                                    <constraint firstAttribute="trailing" secondItem="BXf-rO-D0r" secondAttribute="trailing" id="XBV-l2-bF0"/>
+                                    <constraint firstItem="BXf-rO-D0r" firstAttribute="top" secondItem="7Ew-KI-aZk" secondAttribute="top" id="ZAV-ob-JiD"/>
+                                    <constraint firstAttribute="bottom" secondItem="BXf-rO-D0r" secondAttribute="bottom" id="qth-y5-d0Z"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Ew-KI-aZk" firstAttribute="top" secondItem="Ewb-Do-NZe" secondAttribute="top" constant="8" id="6dh-dk-wnX"/>
+                            <constraint firstAttribute="trailing" secondItem="7Ew-KI-aZk" secondAttribute="trailing" constant="8" id="9T6-rw-qH1"/>
+                            <constraint firstAttribute="bottom" secondItem="XeZ-L7-WLL" secondAttribute="bottom" id="EdY-99-b7T"/>
+                            <constraint firstItem="7Ew-KI-aZk" firstAttribute="leading" secondItem="Ewb-Do-NZe" secondAttribute="leading" constant="8" id="P3g-Mu-Mz5"/>
+                            <constraint firstItem="XeZ-L7-WLL" firstAttribute="leading" secondItem="Ewb-Do-NZe" secondAttribute="leading" id="mbw-K4-Hcn"/>
+                            <constraint firstAttribute="trailing" secondItem="XeZ-L7-WLL" secondAttribute="trailing" id="pbr-Nl-Cbx"/>
+                            <constraint firstAttribute="bottom" secondItem="7Ew-KI-aZk" secondAttribute="bottom" constant="8" id="sAd-ot-cGr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Ewb-Do-NZe" firstAttribute="leading" secondItem="6Ko-Qb-7zX" secondAttribute="leading" constant="16" id="4gr-JS-oOj"/>
+                    <constraint firstAttribute="trailing" secondItem="Ewb-Do-NZe" secondAttribute="trailing" constant="16" id="Gyg-Rg-fQc"/>
+                    <constraint firstItem="Ewb-Do-NZe" firstAttribute="top" secondItem="6Ko-Qb-7zX" secondAttribute="top" id="IJq-N9-e1x"/>
+                    <constraint firstAttribute="bottom" secondItem="Ewb-Do-NZe" secondAttribute="bottom" id="wzt-DQ-Ix3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btmConstraint" destination="wzt-DQ-Ix3" id="dFg-1D-vh8"/>
+                <outlet property="leadingConstraint" destination="4gr-JS-oOj" id="KbS-jQ-uyb"/>
+                <outlet property="textView" destination="BXf-rO-D0r" id="CbB-V4-r8B"/>
+                <outlet property="topConstraint" destination="IJq-N9-e1x" id="A8D-YP-aRP"/>
+                <outlet property="trailingConstraint" destination="Gyg-Rg-fQc" id="C24-Hc-zv6"/>
+                <outlet property="viewMain" destination="Ewb-Do-NZe" id="WBY-YV-M4a"/>
+                <outlet property="viewRadius" destination="7Ew-KI-aZk" id="CkW-bv-1EZ"/>
+            </connections>
+            <point key="canvasLocation" x="96" y="-56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
