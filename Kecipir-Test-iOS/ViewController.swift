@@ -373,10 +373,12 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.section == 5 {
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "PaymentMethodViewController") as? PaymentMethodViewController
-            vc?.paymentDataKecipir = paymentDataKecipir
-            self.navigationController?.pushViewController(vc!, animated: true)
+        if indexPath.section == 6 {
+            if indexPath.row == 0 {
+                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "PaymentMethodViewController") as? PaymentMethodViewController
+                vc?.paymentDataKecipir = paymentDataKecipir
+                self.navigationController?.pushViewController(vc!, animated: true)
+            }
         }
     }
     
